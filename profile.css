@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CEE6F2; 
+    color: #333;
+}
+
+/* Navigation Bar */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #962E2A; 
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #E3867D; 
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 10px 0;
+    border-left: 5px solid #962E2A; 
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #962E2A; 
+}
+
+/* Video Section */
+#video video {
+    width: 50%;
+    height: auto;
+    border: 5px solid #E3867D;
+}
+
+
+a:hover {
+    color: #E3867D;
+}
+
